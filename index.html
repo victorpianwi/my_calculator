@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+</head>
+<body>
+    <section class="main">
+        <section class="output">
+            <section data-previousDisplay class="previous"></section>
+            <section data-currentDisplay class="current"></section>
+        </section>
+        <section class="buttons-main">
+            <section class="buttons">
+                <button id="ac" data-all-clear class="btn btn-light rounded-circle">C</button>
+                <button id="plusminus" data-negative class="btn btn-light rounded-circle">+/-</button>
+                <button id="sin" data-operation class="btn btn-light rounded-circle">sin</button>
+                <button id="delete" data-Delete class="btn btn-light rounded-circle"><img src="img/backspace.svg" alt="delete"></button>
+            </section>
+            <section class="buttons">
+                <button id="exponent" data-operation class="btn btn-light rounded-circle">˄</button>
+                <button id="root" data-operation class="btn btn-light rounded-circle">√</button>
+                <button id="percent" data-operation class="btn btn-light rounded-circle">%</button>
+                <button id="divide" data-operation class="btn btn-warning rounded-circle text-light">÷</button>
+            </section>
+            <section class="buttons">
+                <button id="seven"data-number class="btn btn-dark rounded-circle">7</button>
+                <button id="eight"data-number class="btn btn-dark rounded-circle">8</button>
+                <button id="nine"data-number class="btn btn-dark rounded-circle">9</button>
+                <button id="multiply" data-operation class="btn btn-warning rounded-circle text-light">×</button>
+            </section>
+            <section class="buttons">
+                <button id="four"data-number class="btn btn-dark rounded-circle">4</button>
+                <button id="five"data-number class="btn btn-dark rounded-circle">5</button>
+                <button id="six"data-number class="btn btn-dark rounded-circle">6</button>
+                <button id="minus" data-operation class="btn btn-warning rounded-circle text-light">-</button>
+            </section>
+            <section class="buttons">
+                <button id="one"data-number class="btn btn-dark rounded-circle">1</button>
+                <button id="two"data-number class="btn btn-dark rounded-circle">2</button>
+                <button id="three"data-number class="btn btn-dark rounded-circle">3</button>
+                <button id="add" data-operation class="btn btn-warning rounded-circle text-light">+</button>
+            </section>
+            <section class="buttons">
+                <button id="zero"data-number class="btn btn0 btn-dark">0</button>
+                <button id="dot" data-dot class="btn btn-dark rounded-circle">.</button>
+                <button id="equals" data-equals class="btn btn-warning rounded-circle text-light">=</button>
+            </section>
+        </section>
+    </section>
+
+    <script src="js/script.js"></script>
+    <script src="bootstrap/js/bootstrap.bundle.js"></script>
+    <script src="bootstrap/js/bootstrap.js"></script>
+</body>
+</html>
