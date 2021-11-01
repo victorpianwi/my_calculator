@@ -1,0 +1,260 @@
+body{
+    height: 100vh !important;
+    overflow: hidden !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+.main{
+    height: 38rem;
+    width: 20rem;
+    background-color: black;
+    margin: auto auto;
+    padding-top: 1.5rem !important;
+    overflow: hidden;
+}
+section.output{
+    width: 100% !important;
+    height: 8.6rem !important;
+    margin-bottom: 0.5rem !important;
+    background-color: none;
+    color: white;
+    font-size: 2.7rem !important;
+    border: none !important;
+    text-align: right !important;
+}
+.output .previous{
+    height: 3.6rem !important;
+    color: #a6a6a6;
+    width: 100%;
+    font-size: 2rem !important;
+    overflow: hidden;
+}
+.output .current{
+    height: 5rem !important;
+    width: 100%;
+    overflow: hidden;
+}
+.buttons{
+    width: 100% !important;
+    display: flex !important;
+    justify-content: space-evenly !important;
+}
+.buttons-main{
+    height: 27rem;
+    width: 100% !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: space-evenly !important;
+}
+.btn{
+    height: 4rem !important;
+    width: 4rem !important;
+    font-size: 1.7rem !important;
+}
+.btn-warning{
+    font-size: 2rem !important;
+}
+.btn-light{
+    font-size: 1.5rem !important;
+}
+#on{
+    font-size: 1.5rem !important;
+}
+.btn0{
+    width: 8rem !important;
+    border-radius: 3rem !important;
+}
+
+img[alt='delete']{
+    margin: 0;
+    width: 4rem;
+    height: 2rem;
+    position: relative;
+    right: 35%;
+    bottom: 5%;
+}
+
+@media (min-width: 577px){
+    .main{
+        border-radius: 0.6rem !important;
+    }
+}
+
+@media (max-width: 540px){
+    body{
+        height: 100vh !important;
+        width: 100%;
+        display: block;
+    }
+    .main{
+        height: 100%;
+        width: 100%;
+        background-color: black;
+        margin: 0;
+        padding-top: 2rem !important;
+    }
+    .buttons-main{
+        height: 30rem;
+    }
+    .buttons{
+        width: 100% !important;
+        display: flex !important;
+        justify-content: space-around !important;
+    }
+}
+
+@media (min-width: 370px) and (max-width: 540px){
+    section.output{
+        height: 9rem !important;
+        margin-bottom: 1rem !important;
+    }
+    @media (min-height: 812px) and (max-height: 900px){
+        section.output{
+            height: 10rem !important;
+            margin-bottom: 1.5rem !important;
+        }
+        .output .previous{
+            height: 4rem !important;
+        }
+        .output .current{
+            height: 6rem !important;
+        }
+        .buttons-main{
+            height: 35rem;
+        }
+        .btn{
+            height: 4.5rem !important;
+            width: 4.5rem !important;
+        }
+        .btn0{
+            width: 10rem !important;
+            border-radius: 3rem !important;
+        }
+        img[alt='delete']{
+            margin: 0;
+            width: 4rem;
+            height: 2rem;
+            position: relative;
+            right: 25%;
+            bottom: 5%;
+        }
+    }
+}
+
+@media (min-height: 812px) and (max-height: 900px){
+    section.output{
+        height: 10rem !important;
+        margin-bottom: 1.5rem !important;
+    }
+    .output .previous{
+        height: 4rem !important;
+    }
+    .output .current{
+        height: 6rem !important;
+    }
+    .buttons-main{
+        height: 35rem;
+    }
+    .btn{
+        height: 4.5rem !important;
+        width: 4.5rem !important;
+    }
+    .btn0{
+        width: 10rem !important;
+        border-radius: 3rem !important;
+    }
+    img[alt='delete']{
+        margin: 0;
+        width: 4rem;
+        height: 2rem;
+        position: relative;
+        right: 25%;
+        bottom: 5%;
+    }
+}
+
+@media (min-width: 400px) and (max-width: 540px){
+    .buttons-main{
+        height: 33rem;
+    }
+    .btn{
+        height: 4.5rem !important;
+        width: 4.5rem !important;
+    }
+    .btn0{
+        width: 10rem !important;
+        border-radius: 3rem !important;
+    }
+    img[alt='delete']{
+        margin: 0;
+        width: 4rem;
+        height: 2rem;
+        position: relative;
+        right: 25%;
+        bottom: 5%;
+    }
+}
+
+@media (max-width: 360px){
+    .main{
+        padding-top: 0.5rem !important;
+    }
+}
+
+@media (max-width: 336px){
+    .main{
+        width: 100%;
+        height: 100%;
+        margin: 0 !important;
+        padding-top: 0.8rem !important;
+    }
+    .buttons-main{
+        height: 27rem;
+        width: 100% !important;
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: space-evenly !important;
+    }
+    section.output{
+        height: 7.5rem !important;
+        margin-bottom: 0.0001rem !important;
+    }
+    .output .previous{
+        height: 2.3rem !important;
+        font-size: 1.5rem !important;
+    }
+    .output .current{
+        height: 3.2rem !important;
+    }
+    .btn{
+        height: 3.7rem !important;
+        width: 3.7rem !important;
+        font-size: 1.5rem !important;
+    }
+    .btn0{
+        width: 7.2rem !important;
+        border-radius: 3rem !important;
+    }
+    img[alt='delete']{
+        position: relative;
+        right: 50%;
+        bottom: 5%;
+    }
+}
+
+@media (max-width: 260px){
+    .main{
+        width: 100%;
+        height: 100%;
+    }
+    .btn{
+        height: 3.2rem !important;
+        width: 3.2rem !important;
+        font-size: 1.3rem !important;
+    }
+    .btn0{
+        width: 6.2rem !important;
+        border-radius: 3rem !important;
+    }
+}
