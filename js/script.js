@@ -51,7 +51,7 @@ const updateDisplay = () => {
 
 operationButtons.forEach(operation => {
   operation.addEventListener('click', () => {
-    if (currentDisplay.textContent == "" || currentDisplay.textContent == '0'){
+    if (currentDisplay.textContent == ""){
       if (operation.innerHTML == "√" || operation.innerHTML == "-" || operation.innerHTML == "sin"){
         currentDisplay.textContent = operation.innerHTML;
       } else {
